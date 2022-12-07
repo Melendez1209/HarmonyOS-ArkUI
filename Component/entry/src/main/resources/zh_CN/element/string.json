@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "自定义组件"
+    },
+    {
+      "name": "Goto_demopage",
+      "value": "跳转至DemoPage"
+    },
+    {
+      "name": "DemoPage",
+      "value": "测试页面"
+    }
+  ]
+}

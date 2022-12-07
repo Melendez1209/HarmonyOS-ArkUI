@@ -20,11 +20,12 @@ struct Index {
             router.push({
               url: 'pages/Page1',
               params: {
-                src:msg
+                src: msg
               }
             });
           })
       }
+      
       .width('100%')
     }
     .height('100%')
