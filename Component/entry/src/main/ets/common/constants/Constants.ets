@@ -111,6 +111,10 @@ export const TitleBarStyle = {
    * The right margin of back button.
    */
   IMAGE_BACK_MARGIN_RIGHT: 18,
+  /**
+   * The lift margin of back button.
+   */
+  IMAGE_BACK_MARGIN_LIFT: 18,
 
   /**
    * The size of loading image.

@@ -12,7 +12,12 @@ export struct TitleBar {
         Image($r('app.media.ic_public_back'))
           .height(TitleBarStyle.IMAGE_BACK_SIZE)
           .width(TitleBarStyle.IMAGE_BACK_SIZE)
-          .margin({ right: TitleBarStyle.IMAGE_BACK_MARGIN_RIGHT })
+          .margin(
+            {
+              right: TitleBarStyle.IMAGE_BACK_MARGIN_RIGHT,
+              left: TitleBarStyle.IMAGE_BACK_MARGIN_LIFT
+            }
+          )
           .onClick(() => router.back())
 
         Text(this.title)
